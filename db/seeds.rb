@@ -25,7 +25,7 @@ image = [
 ]
 
 i = 0
-while i <= arr.length 
+while i <= arr.length - 1 
     Bird.create(
         name: arr[i], 
         image_url: image[i]
